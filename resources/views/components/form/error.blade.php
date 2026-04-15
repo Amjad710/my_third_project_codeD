@@ -1,0 +1,10 @@
+@props([
+'name'=>'required'
+])
+<!-- @if ($errors->has('description'))
+        <p class="text-xs text-red-500 mt-1"> {{ $errors->first('description') }} </p>
+    @endif -->
+@error($name)
+<p class="text-xs text-red-500 mt-1"> {{ $message }} </p>
+@enderror
+                
