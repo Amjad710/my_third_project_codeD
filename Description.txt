@@ -1,0 +1,3 @@
+My secound blog.
+I coded this blog using more advanced frontend and more backend techniques.
+  I commited it all.
